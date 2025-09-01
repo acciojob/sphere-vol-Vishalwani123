@@ -1,13 +1,13 @@
 function volume_sphere() {
     //Write your code here
-	let rad = (document.getElementById("radius").value;
+	let rad = document.getElementById("radius").value;
 
 	rad = parseFloat(rad);
 	
-	if (isNaN(radius) || radius < 0) {
+	if (isNaN(rad) || rad < 0) {
         return false; 
     }
-	const vol = (4 / 3) * Math.PI * Math.pow(radius, 3);
+	let vol = (4 / 3) * Math.PI * Math.pow(rad, 3);
 
 	vol = vol.toFixed(4);
 	
