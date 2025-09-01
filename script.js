@@ -1,7 +1,9 @@
 function volume_sphere() {
     //Write your code here
-	let rad = parseFloat(document.getElemenetById("radius").value);
+	let rad = (document.getElementById("radius").value;
 
+	rad = parseFloat(rad);
+	
 	if (isNaN(radius) || radius < 0) {
         return false; 
     }
@@ -9,7 +11,7 @@ function volume_sphere() {
 
 	vol = vol.toFixed(4);
 	
-	document.getElemenetById("volume").value = vol;
+	document.getElementById("volume").value = vol;
 
 	return false;
 } 
